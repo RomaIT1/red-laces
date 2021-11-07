@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/css/style.min.css">
+   <meta name="description" content="LiteBox template for SPA development">
+   <title>LiteBox SPA Development Server</title>
+</head>
+
+<body>
+   <div id="root" class="wrapper">
+      <header class="header">
+   <div class="header__container container">
+      <div class="header__inner">
+         <div class="header__side header__side--left">
+            <div class="header__logo logo">
+               <a class="logo__link" href="#">
+                  <span>R</span>ed<span>L</span>aces
+               </a>              
+            </div>        
+         </div>
+         <div class="header__side header__side--center">
+            <div class="header__contacts contacts">
+               <ul class="contacts__items">
+                  <li class="contacts__item">
+                     <a class="contacts__link" href="tel:+79876543210">+7 987 654 32 10</a>
+                  </li>  
+                  <li class="contacts__item">
+                     <a class="contacts__link" href="mainto:redlaces@gmail.com">redlaces@gmail.com</a>
+                  </li>      
+               </ul>            
+            </div>
+            <div class="header__social social">
+               <ul class="social__items">
+                  <li class="social__item">
+                     <a class="social__link" href="#">
+                        <img class="social__icon" src="./assets/images/social/instagram.svg" alt="Иконка для социальной сети инстаграм">
+                        <span class="social__label">@redlaces</span>
+                     </a>            
+                  </li>                 
+               </ul>              
+            </div>
+         </div>
+         <div class="header__side header__side--right">
+            <div class="header__menu-icon menu-icon">
+               <span></span>
+            </div>
+            <div class="header__menu-content menu-content">
+               <nav class="menu-content__navigation navigation">
+                  <ul class="navigation__items">
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#about">О нас</a>     
+                     </li>     
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#product">Каталог</a>     
+                     </li>       
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#reviews">Отзывы</a>     
+                     </li>    
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#questions">Вопросы</a>     
+                     </li> 
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#form">Обратная форма</a>     
+                     </li>
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#blogs">Блог</a>     
+                     </li>                
+                  </ul>                
+               </nav>
+               <div class="menu-content__social social">
+                  <ul class="social__items">
+                     <li class="social__item">
+                        <img class="social__icon" src="./assets/images/social/instagram.svg" alt="Иконка для социальной сети инстаграм">
+                        <a class="social__link" href="#">@redlaces</a>            
+                     </li>                 
+                  </ul>  
+               </div>    
+               <div class="menu-content__contacts contacts">
+                  <ul class="contacts__items">
+                     <li class="contacts__item">
+                        <a class="contacts__link" href="tel:+79876543210">+7 987 654 32 10</a>
+                     </li>  
+                     <li class="contacts__item">
+                        <a class="contacts__link" href="mainto:redlaces@gmail.com">redlaces@gmail.com</a>
+                     </li>      
+                  </ul>       
+               </div>  
+            </div>
+         </div>
+      </div>    
+   </div> 
+</header>
+      <main class="page">
+         <section class="page__welcome welcome" id="welcome">
+   <div class="welcome__container container">
+      <div class="welcome__inner">
+         <div class="welcome__content">
+            <article class="welcome__message">
+               <div class="welcome__title welcome-title">
+                  <h4 class="welcome-title__item">Твои ноги достойны лучшего</h4>
+                  <h1 class="welcome-title__main">Шагни по новому</h1>
+                  <p class="welcome-title__sub">Магазин брэндовой спортивной обуви с доставкой по всей стране Магазин брэндовой спортивной обуви с доставкой по всей стране </p>
+               </div>
+               <div class="welcome__numeral welcome-numeral">
+                  <ul class="welcome-numeral__items">
+                     <li class="welcome-numeral__item">
+                        <span class="welcome-numeral__value">900+</span>
+                        <span class="welcome-numeral__description">Довольных клиентов</span>
+                     </li>  
+                     <li class="welcome-numeral__item">
+                        <span class="welcome-numeral__value">120</span>
+                        <span class="welcome-numeral__description">Моделей обуви</span>
+                     </li>                    
+                  </ul>                 
+               </div>
+               <a class="welcome__button button" href="#form">
+                  <span>Подобрать обувь</span>
+               </a>
+            </article>
+            <div class="welcome__image">
+               <picture>
+                  <source srcset="./assets/images/welcome/sneaker-main.webp" type="image/webp">
+                  <img src="./assets/images/welcome/sneaker-main.png" alt="Главная картинка кроссовок для главной страницы">
+               </picture>
+            </div>
+         </div>
+         <picture class="welcome__sneaker welcome__sneaker--1">
+            <source srcset="./assets/images/welcome/sneaker-1.webp" type="image/webp">
+            <img src="./assets/images/welcome/sneaker-1.png" alt="Кроссовки для главной страницы">
+         </picture>
+         <picture class="welcome__sneaker welcome__sneaker--2">
+            <source srcset="./assets/images/welcome/sneaker-2.webp" type="image/webp">
+            <img src="./assets/images/welcome/sneaker-2.png" alt="Кроссовки для главной страницы">
+         </picture>
+         <picture class="welcome__sneaker welcome__sneaker--3">
+            <source srcset="./assets/images/welcome/sneaker-3.webp" type="image/webp">
+            <img src="./assets/images/welcome/sneaker-3.png" alt="Кроссовки для главной страницы">
+         </picture>
+         <picture class="welcome__sneaker welcome__sneaker--4">
+            <source srcset="./assets/images/welcome/sneaker-4.webp" type="image/webp">
+            <img src="./assets/images/welcome/sneaker-4.png" alt="Кроссовки для главной страницы">
+         </picture>
+      </div>    
+   </div>
+</section>
+         <section class="page__about about" id="about">
+   <div class="about__container container">
+      <div class="about__inner">
+         <div class="about__title title">
+            <div class="title__logo logo">
+               <span class="logo__link">
+                  <span>R</span>ed
+                  <span>L</span>aces
+               </span>
+            </div>
+            <h2 class="title__main">Про нас</h2>
+         </div>    
+         <article class="about__main-info">
+            <div class="about__text">
+               <p>
+                  Каждый из нас понимает очевидную вещь: убеждённость некоторых оппонентов говорит о возможностях вывода текущих активов. 
+                  В целом, конечно, разбавленное изрядной долей эмпатии, рациональное мышление, в своём классическом представлении, 
+                  допускает внедрение экспериментов, поражающих по своей масштабности и грандиозности. Задача организации, 
+                  в особенности же разбавленное изрядной долей эмпатии, рациональное 
+               </p>
+            </div>           
+            <div class="about__image">
+               <picture>
+                  <source data-srcset="./assets/images/about/content-image.webp" srcset="./assets/images/sys/plug.png" type="image/webp">
+                  <img data-src="./assets/images/about/content-image.png" src="./assets/images/sys/plug.png" alt="Контент-картинка для секции">
+               </picture>
+            </div>
+         </article>  
+      </div>  
+   </div>  
+</section>
+         <section class="page__numeral numeral" id="numeral">
+   <div class="numeral__container container">
+      <div class="numeral__inner">
+         <div class="numeral__title title">
+            <h2 class="title__main">Увидь и убедись</h2>
+            <h4 class="title__sub">цифры, которые впечетляют</h4>
+         </div>    
+         <div class="numeral__list numeral-list">
+            <ul class="numeral-list__items">
+               <li class="numeral-list__item">
+                  <span class="numeral-list__value">80</span>
+                  <span class="numeral-list__description">Заказов в месяц</span>
+               </li>    
+               <li class="numeral-list__item">
+                  <span class="numeral-list__value">10</span>
+                  <span class="numeral-list__description">Лет опыта работы</span>
+               </li>    
+               <li class="numeral-list__item">
+                  <span class="numeral-list__value">150+</span>
+                  <span class="numeral-list__description">Моделей в наличии</span>
+               </li>       
+            </ul>
+         </div>    
+      </div>     
+   </div>  
+</section>
+         <section class="page__product product" id="product">
+   <picture class="product__image">
+      <source data-srcset='./assets/images/product/cover.webp' srcset="./assets/images/sys/plug.png" type="image/webp">
+      <img data-src="./assets/images/product/cover.jpg" src="./assets/images/sys/plug.png" alt="cover">
+   </picture>
+   <div class="product__container container">
+      <div class="product__inner">
+         <div class="product__title title">
+            <h2 class="title__main">Каталог</h2>
+            <h4 class="title__sub">Выбери среди лучшего</h4>
+         </div>
+         <div class="product__carts product-carts product-carts-slider">
+            <div class="product-carts-slider__inner swiper-wrapper">
+               <div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div>
+               <div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div><div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div><div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div><div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div><div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div><div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div><div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div>
+               <div class="product-carts-slider__slide swiper-slide">
+                  <div class="product-carts__cart">
+                     <div class="product-carts__discount">
+                        <svg width="85" height="84" viewBox="0 0 85 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_25:410)">
+                           <path d="M39.4682 12.4971C41.466 9.77323 45.534 9.77323 47.5318 12.4971L52.2458 18.9242C53.2298 20.2659 54.8169 21.0302 56.4794 20.963L64.4434 20.6413C67.8186 20.5049 70.355 23.6854 69.471 26.9457L67.3852 34.6385C66.9498 36.2444 67.3417 37.9617 68.4308 39.2196L73.6479 45.2456C75.8589 47.7994 74.9536 51.7654 71.8535 53.107L64.5386 56.2726C63.0115 56.9334 61.9133 58.3106 61.6088 59.9464L60.1503 67.7824C59.5322 71.1033 55.867 72.8683 52.8853 71.281L45.8495 67.5357C44.3807 66.7538 42.6193 66.7538 41.1505 67.5357L34.1147 71.281C31.133 72.8683 27.4678 71.1033 26.8497 67.7824L25.3912 59.9464C25.0867 58.3106 23.9885 56.9334 22.4614 56.2726L15.1465 53.107C12.0464 51.7654 11.1411 47.7994 13.3521 45.2456L18.5692 39.2196C19.6583 37.9617 20.0502 36.2444 19.6148 34.6385L17.529 26.9457C16.645 23.6854 19.1814 20.5049 22.5566 20.6413L30.5206 20.963C32.1831 21.0302 33.7702 20.2659 34.7542 18.9242L39.4682 12.4971Z" fill="#FCFCFC"/>
+                           </g>
+                           <defs>
+                           <filter id="filter0_d_25:410" x="0.130859" y="0.454224" width="84.7383" height="83.4169" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                           <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_25:410"/>
+                           <feOffset dx="-1" dy="1"/>
+                           <feGaussianBlur stdDeviation="4.5"/>
+                           <feComposite in2="hardAlpha" operator="out"/>
+                           <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.411133 0 0 0 0 0.330833 0 0 0 0.35 0"/>
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25:410"/>
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25:410" result="shape"/>
+                           </filter>
+                           </defs>
+                        </svg>
+                        <span>25%</span>
+                     </div>
+                     <div class="product-carts__cart-inner">
+                        <h5 class="product-carts__name">Jordan 1 Retro High Court Purple 555088-501</h5>
+                        <picture class="product-carts__main-image"> 
+                           <img src="./assets/images/product/sneaker.png" alt="Картинка товара">
+                        </picture>                                      
+                        <div class="product-carts__bottom">
+                           <button class="product-carts__button" data-popap-openclick='order' data-productmodel='Jordan 1 Retro High Court Purple 555088-501'>Перейти к заказу</button>
+                           <div class="product-carts__price">
+                              <span class="product-carts__price--current">10 000 руб</span>
+                              <span class="product-carts__price--at-first">13 000 руб</span>
+                           </div>
+                        </div>  
+                     </div>    
+                  </div>
+               </div>        
+            </div>
+            <div class="product-carts__active">          
+               <div class="product-carts__pagination swiper-pagination"></div>
+            </div>
+            <div class="product-carts__button-prev swiper-button-prev"></div>
+            <div class="product-carts__button-next swiper-button-next"></div> 
+         </div>
+      </div>    
+   </div>
+</section>
+         <section class="page__reviews reviews" id="reviews">
+   <div class="reviews__container container">
+      <div class="reviews__inner">  
+         <div class="reviews__title title">
+            <h2 class="title__main">Отзывы</h2>
+            <h4 class="title__sub">доверие от клиентов со всей страны</h4>
+         </div>
+         <div class="reviews__slider reviews-slider">
+            <div class="reviews-slider__wrapper swiper-wrapper">
+               <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__slide-inner">
+                     <div class="reviews-slider__client-info">
+                        <div class="reviews-slider__client-name">Олександр Вертинський</div>   
+                        <div class="reviews-slider__client-city">г. Казань</div>
+                     </div>
+                     <p class="reviews-slider__client-message">
+                        "Есть над чем задуматься: стремящиеся вытеснить традиционное производство, 
+                        нанотехнологии смешаны с не уникальными данными до степени совершенной неузнаваемости, 
+                        из-за чего возрастает их статус бесполезности. В своём стремлении улучшить пользовательский опыт мы упускаем, 
+                        что ключевые особенности структуры проекта, вне зависимости от их уровня, должны быть представлены в исключительно положительном свете."
+                     </p> 
+                     <svg width="904" height="360" viewBox="0 0 904 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="57" height="14" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 809 118)" fill="url(#paint0_linear_48:119)"/>
+                        <rect width="78" height="23" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 904 118)" fill="url(#paint1_linear_48:119)"/>
+                        <rect width="108" height="33" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 865 118)" fill="url(#paint2_linear_48:119)"/>
+                        <rect width="118" height="49" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 49 118)" fill="url(#paint3_linear_48:119)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_48:119" x1="1.48742e-08" y1="7" x2="56.874" y2="9.80247" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_48:119" x1="2.03541e-08" y1="11.5" x2="77.8853" y2="14.6967" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_48:119" x1="2.81826e-08" y1="16.5" x2="107.854" y2="20.7719" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_48:119" x1="3.07921e-08" y1="24.5" x2="117.925" y2="27.9369" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_48:119" x1="1.0699e-08" y1="8.5" x2="40.9738" y2="9.69597" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                     </svg>    
+                  </div>      
+               </div>         
+               <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__slide-inner">
+                     <div class="reviews-slider__client-info">
+                        <div class="reviews-slider__client-name">Олександр Вертинський</div>   
+                        <div class="reviews-slider__client-city">г. Казань</div>
+                     </div>
+                     <p class="reviews-slider__client-message">
+                        "Есть над чем задуматься: стремящиеся вытеснить традиционное производство, 
+                        нанотехнологии смешаны с не уникальными данными до степени совершенной неузнаваемости, 
+                        из-за чего возрастает их статус бесполезности. В своём стремлении улучшить пользовательский опыт мы упускаем, 
+                        что ключевые особенности структуры проекта, вне зависимости от их уровня, должны быть представлены в исключительно положительном свете."
+                     </p> 
+                     <svg width="904" height="360" viewBox="0 0 904 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="57" height="14" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 809 118)" fill="url(#paint0_linear_48:119)"/>
+                        <rect width="78" height="23" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 904 118)" fill="url(#paint1_linear_48:119)"/>
+                        <rect width="108" height="33" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 865 118)" fill="url(#paint2_linear_48:119)"/>
+                        <rect width="118" height="49" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 49 118)" fill="url(#paint3_linear_48:119)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_48:119" x1="1.48742e-08" y1="7" x2="56.874" y2="9.80247" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_48:119" x1="2.03541e-08" y1="11.5" x2="77.8853" y2="14.6967" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_48:119" x1="2.81826e-08" y1="16.5" x2="107.854" y2="20.7719" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_48:119" x1="3.07921e-08" y1="24.5" x2="117.925" y2="27.9369" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_48:119" x1="1.0699e-08" y1="8.5" x2="40.9738" y2="9.69597" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                     </svg>      
+                  </div>      
+               </div>         
+               <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__slide-inner">
+                     <div class="reviews-slider__client-info">
+                        <div class="reviews-slider__client-name">Олександр Вертинський</div>   
+                        <div class="reviews-slider__client-city">г. Казань</div>
+                     </div>
+                     <p class="reviews-slider__client-message">
+                        "Есть над чем задуматься: стремящиеся вытеснить традиционное производство, 
+                        нанотехнологии смешаны с не уникальными данными до степени совершенной неузнаваемости, 
+                        из-за чего возрастает их статус бесполезности. В своём стремлении улучшить пользовательский опыт мы упускаем, 
+                        что ключевые особенности структуры проекта, вне зависимости от их уровня, должны быть представлены в исключительно положительном свете."
+                     </p> 
+                     <svg width="904" height="360" viewBox="0 0 904 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="57" height="14" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 809 118)" fill="url(#paint0_linear_48:119)"/>
+                        <rect width="78" height="23" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 904 118)" fill="url(#paint1_linear_48:119)"/>
+                        <rect width="108" height="33" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 865 118)" fill="url(#paint2_linear_48:119)"/>
+                        <rect width="118" height="49" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 49 118)" fill="url(#paint3_linear_48:119)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_48:119" x1="1.48742e-08" y1="7" x2="56.874" y2="9.80247" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_48:119" x1="2.03541e-08" y1="11.5" x2="77.8853" y2="14.6967" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_48:119" x1="2.81826e-08" y1="16.5" x2="107.854" y2="20.7719" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_48:119" x1="3.07921e-08" y1="24.5" x2="117.925" y2="27.9369" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_48:119" x1="1.0699e-08" y1="8.5" x2="40.9738" y2="9.69597" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                     </svg>     
+                  </div>      
+               </div>       
+               <div class="reviews-slider__slide swiper-slide">
+                  <div class="reviews-slider__slide-inner">
+                     <div class="reviews-slider__client-info">
+                        <div class="reviews-slider__client-name">Олександр Вертинський</div>   
+                        <div class="reviews-slider__client-city">г. Казань</div>
+                     </div>
+                     <p class="reviews-slider__client-message">
+                        "Есть над чем задуматься: стремящиеся вытеснить традиционное производство, 
+                        нанотехнологии смешаны с не уникальными данными до степени совершенной неузнаваемости, 
+                        из-за чего возрастает их статус бесполезности. В своём стремлении улучшить пользовательский опыт мы упускаем, 
+                        что ключевые особенности структуры проекта, вне зависимости от их уровня, должны быть представлены в исключительно положительном свете."
+                     </p> 
+                     <svg width="904" height="360" viewBox="0 0 904 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="57" height="14" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 809 118)" fill="url(#paint0_linear_48:119)"/>
+                        <rect width="78" height="23" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 904 118)" fill="url(#paint1_linear_48:119)"/>
+                        <rect width="108" height="33" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 865 118)" fill="url(#paint2_linear_48:119)"/>
+                        <rect width="118" height="49" transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 49 118)" fill="url(#paint3_linear_48:119)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_48:119" x1="1.48742e-08" y1="7" x2="56.874" y2="9.80247" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_48:119" x1="2.03541e-08" y1="11.5" x2="77.8853" y2="14.6967" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_48:119" x1="2.81826e-08" y1="16.5" x2="107.854" y2="20.7719" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_48:119" x1="3.07921e-08" y1="24.5" x2="117.925" y2="27.9369" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_48:119" x1="1.0699e-08" y1="8.5" x2="40.9738" y2="9.69597" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF8F8F"/>
+                        <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                     </svg>      
+                  </div>      
+               </div>       
+            </div> 
+            <div class="reviews-slider__navigation">
+               <button class="reviews-slider__button reviews-slider__button--prev">
+                  <img src="./assets/images/reviews/button-prev.svg" alt="">
+               </button>
+               <button class="reviews-slider__button reviews-slider__button--next">
+                  <img src="./assets/images/reviews/button-next.svg" alt="">
+               </button>
+            </div>   
+         </div>
+      </div>
+   </div>
+</section>
+         <section class="page__stages stages" id="stages">
+   <div class="stages__inner">
+      <div class="stages__title title">
+         <h2 class="title__main">Выбирать стало еще удобнее</h2>
+         <h4 class="title__sub">покупка в клик с вашего дома</h4>
+      </div>     
+      <div class="stages__list stages-list">
+         <ul class="stages-list__items">
+            <li class="stages-list__item">
+               <div class="stages-list__item-inner">
+                  <h6 class="stages-list__title">Выбери модель</h6>
+                  <img class="stages-list__icon" src="./assets/images/stages/stages-1.svg" alt="stages">
+               </div>              
+            </li> 
+            <li class="stages-list__item">
+               <div class="stages-list__item-inner">
+                  <h6 class="stages-list__title">Укажи место доставки</h6>
+                  <img class="stages-list__icon" src="./assets/images/stages/stages-2.svg" alt="stages">
+               </div>              
+            </li>   
+            <li class="stages-list__item">
+               <div class="stages-list__item-inner">
+                  <h6 class="stages-list__title">Заберите заказ</h6>
+                  <img class="stages-list__icon" src="./assets/images/stages/stages-3.svg" alt="stages">
+               </div>              
+            </li>         
+         </ul>
+         <picture class="stages-list__cover">
+            <source data-srcset="./assets/images/stages/cover.webp" srcset="./assets/images/sys/plug.png" type="image/webp"> 
+            <img data-src="./assets/images/stages/cover.jpg" src="./assets/images/sys/plug.png" alt="Фон для секции">
+         </picture>
+      </div>
+   </div>  
+</section>
+         <section class="page__questions questions" id="questions">
+   <div class="questions__container container">
+      <div class="questions__inner">
+         <div class="questions__title">
+            <h2 class="title__main">Частые вопросы</h2>
+            <h4 class="title__sub">И мы попробуем дать на них ответ</h4>
+         </div>
+         <div class="questions__list questions-list">
+            <ul class="questions-list__items">
+               <li class="questions-list__item">
+                  <div class="questions-list__main-info">
+                     <h5 class="questions-list__question">Какая старана производитель ваших кросовок?</h5>
+                     <div class="questions-list__answer closed">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id odit, dolorem sequi eaque quibusdam modi soluta, ipsam quas ipsa accusantium aut culpa. Esse alias quaerat quae! Voluptates, aliquid sapiente.</p>
+                     </div>
+                  </div>
+                  <button class="questions-list__arrow">
+                     <img src="./assets/images/questions/arrow.svg" alt="arrow">
+                  </button>
+               </li>  
+               <li class="questions-list__item">
+                  <div class="questions-list__main-info">
+                     <h5 class="questions-list__question">Какая старана производитель ваших кросовок?</h5>
+                     <div class="questions-list__answer closed">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id odit, dolorem sequi eaque quibusdam modi soluta, ipsam quas ipsa accusantium aut culpa. Esse alias quaerat quae! Voluptates, aliquid sapiente.</p>
+                     </div>
+                  </div>
+                  <button class="questions-list__arrow">
+                     <img src="./assets/images/questions/arrow.svg" alt="arrow">
+                  </button>
+               </li>  
+               <li class="questions-list__item">
+                  <div class="questions-list__main-info">
+                     <h5 class="questions-list__question">Какая старана производитель ваших кросовок?</h5>
+                     <div class="questions-list__answer closed">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id odit, dolorem sequi eaque quibusdam modi soluta, ipsam quas ipsa accusantium aut culpa. Esse alias quaerat quae! Voluptates, aliquid sapiente.</p>
+                     </div>
+                  </div>
+                  <button class="questions-list__arrow">
+                     <img src="./assets/images/questions/arrow.svg" alt="arrow">
+                  </button>
+               </li>      
+            </ul>            
+         </div>   
+      </div>    
+   </div>  
+</section>
+         <section class="page__form form" id="form">
+   <svg class="form__background" width="519" height="777" viewBox="0 0 519 777" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M236.779 0.841391C85.7901 10.2172 6.88967 95.5577 0 249.883H152.312C154.22 196.425 184.114 156.462 239.776 150.569C294.414 144.781 346.248 157.77 361.948 195.053C378.906 235.327 340.838 282.128 322.738 301.774C289.237 338.202 234.82 364.775 206.612 404.079C178.963 442.592 174.045 493.265 171.917 555.283H306.156C308.037 515.63 310.684 477.648 328.758 453.004C358.159 412.962 402.066 394.198 438.863 362.574C474.012 332.349 510.991 295.92 517.271 239.536C536.123 70.7844 398.109 -9.20781 236.779 0.841391Z" fill="url(#paint0_linear_45:143)"/>
+      <path d="M240.23 777C287.038 777 324.982 739.702 324.982 693.693C324.982 647.683 287.038 610.385 240.23 610.385C193.423 610.385 155.478 647.683 155.478 693.693C155.478 739.702 193.423 777 240.23 777Z" fill="url(#paint1_linear_45:143)"/>
+      <defs>
+      <linearGradient id="paint0_linear_45:143" x1="236" y1="-8.57346e-06" x2="256.08" y2="776.636" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8F8F" stop-opacity="0"/>
+      <stop offset="0.503125" stop-color="#FF8F8F"/>
+      <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="paint1_linear_45:143" x1="236" y1="-8.57346e-06" x2="256.08" y2="776.636" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8F8F" stop-opacity="0"/>
+      <stop offset="0.503125" stop-color="#FF8F8F"/>
+      <stop offset="1" stop-color="#FF8F8F" stop-opacity="0"/>
+      </linearGradient>
+      </defs>
+   </svg>
+   <div class="form__container container">
+      <div class="form__inner">
+         <div class="form__title title">
+            <h2 class="title__main">Не нашли обувь, которую искали?</h2>
+            <h4 class="title__sub">
+               Мы постараемся найти обувь, которую ищете, оставьте в форме Ваши контакты, модель обуви и наши специалисты предоставят обратную связь как можно быстрее
+            </h4>
+         </div>
+         <form class="form__user form-user" method="post">
+            <input class="form-user__field" type="text" class="" placeholder="Укажите Ваше имя">
+            <input class="form-user__field" type="email" placeholder="Укажите Вашу почту">
+            <textarea class="form-user__field" type="text" placeholder="Какую обувь вы ищете?"></textarea>
+            <button class="form-user__button form-user__button--submit">Отправить вопрос</button>
+         </form>
+      </div>    
+   </div>   
+</section>
+         <section class="page__blogs blogs" id="blogs">
+   <div class="blogs__container container">
+      <div class="blogs__inner">
+         <div class="blogs__content">
+            <div class="blogs__title title">
+               <h2 class="title__main">У нас есть блог</h2>
+            </div>
+            <a class="blogs__button button" href="articles/articles.html">Статьи</a>
+         </div>
+      </div>   
+   </div> 
+   <picture class="blogs__image">
+      <source data-srcset="./assets/images/blogs/sneaker.webp" srcset="./assets/images/sys/plug.png" type="image/webp">
+      <img data-src="./assets/images/blogs/sneaker.png" src="./assets/images/sys/plug.png" alt="Контент-картинка для секции">
+   </picture>
+</section>
+      </main>
+      <footer class="footer">
+   <picture class="footer__image">
+      <source data-srcset="./assets/images/footer/cover.webp" srcset="./assets/images/sys/plug.png" type="image/webp">
+      <img data-src="./assets/images/footer/cover.jpg" src="./assets/images/sys/plug.png" alt="Фон для секции">
+   </picture>
+   <div class="footer__container container">
+      <div class="footer__inner">
+         <div class="footer__content">
+            <div class="footer__title title">
+               <div class="title__logo logo">
+                  <span class="logo__link">RedLaces</span>
+               </div>
+               <h4 class="title__sub">
+                  Шагни по новому
+               </h4>       
+            </div>
+            <div class="footer__main-info">
+               <nav class="footer__navigation navigation">
+                  <ul class="navigation__items">     
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#product">Каталог</a>     
+                     </li>           
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#form">Обратная форма</a>     
+                     </li>
+                     <li class="navigation__item">
+                        <a class="navigation__link" href="#blogs">Блог</a>     
+                     </li>                
+                  </ul>                
+               </nav>
+               <table class="footer__table footer-table">
+                  <tbody class="footer-table__inner">
+                     <tr class="footer-table__row footer-table__row--time-work">
+                        <td class="footer-table__data">10:00 - 20:00</td>
+                        <td class="footer-table__data footer-table__data--day-off">Без виходных</td>
+                     </tr>
+                     <tr class="footer-table__row footer-table__row--instagram">
+                        <td class="footer-table__data footer-table__data">
+                           <a href="#">
+                              @redlaces
+                           </a>
+                        </td>
+                     </tr>
+                     <tr class="footer-table__row footer-table__row--sity">
+                        <td class="footer-table__data">
+                           <a href="#">
+                              Воркута , ул. Строительная
+                           </a>
+                        </td>
+                     </tr>
+                     <tr class="footer-table__row">
+                        <td class="footer-table__data footer-table__data--tel">
+                           <a href="tel:+79876543210">
+                              +7 987 654 32 10
+                           </a>
+                        </td>
+                     </tr>
+                     <tr class="footer-table__row">
+                        <td class="footer-table__data footer-table__data--email">
+                           <a href="mainto:redlaces@gmail.com">
+                              redlaces@gmail.com
+                           </a>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="footer__copyright footer-copyright">
+               <div class="footer-copyright__company">
+                  2021 © RedLaces
+               </div>
+               <div class="footer-copyright__created-site">
+                  Created:
+                  <a href="https://hello-freedom.com.ua">
+                     HelloFreedomTeam Agency
+                  </a>
+               </div>              
+            </div>          
+         </div>        
+      </div>
+   </div>
+</footer>
+      <div class="popap popap__order order" data-popap = 'order'>
+   <div class="order__container container popap__container">
+      <div class="order__inner popap__inner">
+         <div class="order__content popap__content">
+            <div class="order__title popap__title title">
+               <h2 class="title__main">Оставить заявку на товар</h2>
+               <p class="title__sub">Заполните форму ниже и наши специалисты свяжутся с вами</p>
+            </div>
+            <form class="popap__user form-user" method="post">
+               <input class="form-user__field" type="text" placeholder="Укажите желаемую модель" data-input-modelproduct>
+               <input class="form-user__field" type="text" placeholder="Укажите Ваше имя">
+               <input class="form-user__field" type="email" placeholder="Укажите Вашу почту">
+               <input class="form-user__field" type="number" placeholder="Укажите Ваш телефон">
+               <button class="form-user__button form-user__button--submit">Отправить заявку</button>
+            </form>
+            <button class="about__popap-close popap__button-close" data-popap-closeclick = 'order'>
+               <span>Вернуться на сайт</span>
+            </button>
+         </div>
+      </div>
+   </div>
+</div>
+   </div>
+<script src="assets/js/script.min.js"></script>
+</body>
+</html>
